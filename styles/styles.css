@@ -1,0 +1,149 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*header*/
+.header-container {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-menu {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  padding: 5px;
+}
+
+.header-logo {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  width: 800px;
+  font-size: 24px;
+  color: #F9FAF8;
+  margin-right: 0;
+}
+
+.header-link-one,
+.header-link-two,
+.header-link-three {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-end;
+  width: 200px;
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-left: 0;
+}
+/*header*/
+
+/*menu*/
+.menu-container {
+  /*border: 1px solid blue;*/
+  display: flex;
+  background-color: #1F2937;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.menu {
+  /*border: 1px solid magenta;*/
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  padding: 100px 5px;
+  
+}
+
+.menu-title {
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 100px;
+  width: 500px;
+  height: 250px;
+}
+
+.menu-title-hero {
+  /*border: 1px solid;*/
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+  flex: 1 1 auto;
+}
+
+.menu-title-sec {
+  /*border: 1px solid;*/
+  font-size: 18px;
+  color: #E5E7EB;
+  flex: 2 1 auto;
+}
+
+button {
+  border-radius: 3px;
+  background-color: #3882F6;
+  color: #E5E7EB;
+}
+
+.menu-image {
+  display: flex;
+}
+
+img {
+  width: 500px;
+  height: 250px;
+}
+/*menu*/
+
+/*body*/
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body-title {
+  text-align: center;
+}
+
+.body-container {
+  border: 1px solid yellowgreen ;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.body-card-button {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #3882F6;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.body-card {
+  text-align: center;
+}
+/*body*/
+
+/*footer*/
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*footer*/
