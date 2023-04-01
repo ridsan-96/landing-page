@@ -10,11 +10,12 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  background-color: #E5E7EB;
 }
 
 /*header*/
 .header-container {
-  background-color: #1F2937;
+  background-color: #00adb9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +24,7 @@ body {
 .header-menu {
   /* border: 1px solid white; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 1000px;
   padding: 5px;
 }
@@ -55,7 +56,7 @@ body {
 .menu-container {
   /*border: 1px solid blue;*/
   display: flex;
-  background-color: #1F2937;
+  background-color: #00adb9;
   justify-content: center;
   align-items: center;
   
@@ -96,11 +97,10 @@ body {
 }
 
 .button-1 {
-  border: 1px solid #3882F6;
+  border: 1px solid #E5E7EB;
   border-radius: 5px;
-  box-shadow: ;
-  background-color: #3882F6;
-  color: #E5E7EB;
+  background-color: #E5E7EB;
+  color: #000000;
   font-weight: bold;
   width: 100px;
   padding: 5px;
@@ -130,8 +130,12 @@ img {
   text-align: center;
   font-size: 36px;
   font-weight: bold;
-  color: #1F2937;
   margin: 50px 10px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #1F2937;
 }
 
 .body-container {
@@ -156,10 +160,22 @@ img {
 .body-card-2,
 .body-card-3,
 .body-card-4 {
-  border: 2px solid #3882F6;
+  border: 2px solid #d8d3d3;
   border-radius: 5px;
   width: 150px;
   height: 150px;
+}
+
+.body-card-image-1 {
+  width: 145px;
+  height: 145px;
+  padding: 3px;
+  background-color: #E5E7EB;
+  opacity: 0;
+}
+
+.body-card-image-1:hover {
+  opacity: 1;
 }
 
 .body-text {
@@ -173,7 +189,7 @@ img {
 
 .body-para-container {
   /*border: 1px solid blueviolet;*/
-  background-color: #E5E7EB;
+  background-color: #0bd3a8;
   padding-top: 50px;
   padding-bottom: 50px;
   height: 100%;
@@ -199,7 +215,7 @@ img {
 }
 
 .body-para-2 {
-  border: 1px solid orange;
+  /*border: 1px solid orange;*/
   font-size: 18px;
   font-weight: bold;
   color: #1F2937;
@@ -210,10 +226,11 @@ img {
 }
 
 .body-signup {
+  border: 2px solid #d8d3d3;
   border-radius: 15px;
   box-sizing: border-box;
-  background-color: #3882F6;
-  color: #F9FAF8;
+  background-color: #F9FAF8;
+  color: #000000;
   font-size: 18px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -231,11 +248,10 @@ img {
 }
 
 .button-2 {
-  border: 1px solid #E5E7EB;
+  border: 1px solid #0bd3a8;
   border-radius: 5px;
-  box-shadow: ;
-  background-color: #3882F6;
-  color: #E5E7EB;
+  background-color: #0bd3a8;
+  color: #000000;
   font-weight: bold;
   width: 100px;
   padding: 5px;
@@ -245,7 +261,7 @@ img {
 /*footer*/
 .footer {
   /*border: 1px solid red;*/
-  background-color: #1F2937;
+  background-color: #00adb9;
   min-height: 37px;
   display: flex;
   justify-content: center;
@@ -255,8 +271,7 @@ img {
 
 .footer-author {
   font-size: 18px;
-  color: #F9FAF8;
+  color: #000000;
 }
-
 
 /*footer*/
