@@ -1,5 +1,3 @@
-Please find below the README file for the "Landing Page Odin Project":
-
 # Landing Page
 
 This is a landing page created as part of the Odin Project course.
